@@ -41,7 +41,7 @@ jobs:
        git tag -a -f v5.0.0-alpha.1 -m "build"
        pnpm run build:alpha
 
-      - name: Upload zip
+       - name: Upload zip
         uses: actions/upload-artifact@v4
         with:
           name: lite-tools-v5
